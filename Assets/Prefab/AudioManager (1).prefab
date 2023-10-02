@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2176782542865394767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8123307564200770935}
+  - component: {fileID: 536786446166503248}
+  m_Layer: 0
+  m_Name: AudioManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8123307564200770935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176782542865394767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 37.8603, y: 10.619249, z: 20.104593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &536786446166503248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2176782542865394767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7a5f1fd96e371478f783cfde251ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 4fd3c18289797f44295d6d77da11a65d, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music0
+    clip: {fileID: 8300000, guid: 66d5159c26ef222478e1bb767a581e12, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music1
+    clip: {fileID: 8300000, guid: 420222d28a6435042a495bb35724db76, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music2
+    clip: {fileID: 8300000, guid: 3fbd866bfbc432248bd2ba77bfa21b1e, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Music3
+    clip: {fileID: 8300000, guid: f610772f5e28a594fa7115819ce8c145, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: MosinShoot
+    clip: {fileID: 8300000, guid: 830140ccb4a84524881da08c8c6e541c, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MadsenShoot
+    clip: {fileID: 8300000, guid: 295311a25c84e53439b2edbe18141e0c, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PpshShoot
+    clip: {fileID: 8300000, guid: 9d4449827bb13e0409419d7cd978e21a, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Ak47Shoot
+    clip: {fileID: 8300000, guid: 9149fb5cb786d0d4bb34f501d5ec3279, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Mp44Shoot
+    clip: {fileID: 8300000, guid: a1ec0bddbe067fe48a54bab15440f10a, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ThompsonShoot
+    clip: {fileID: 8300000, guid: 750c76aa788bf3d47859d9e1a47470ab, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Kar98Shoot
+    clip: {fileID: 8300000, guid: 0b8376c0578913946a4fedf30167dd86, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LebelShoot
+    clip: {fileID: 8300000, guid: 67931d22a2773234bbfe93b73e981dfc, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 8cdf976ce695a4348887ca21df068f42, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ReloadPpsh
+    clip: {fileID: 8300000, guid: 2f1dc62154958dc46a7efa70f8557513, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ReloadMp44
+    clip: {fileID: 8300000, guid: 1879de38533a3ad4885551da2a7bb32e, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ReloadMosin
+    clip: {fileID: 8300000, guid: 3d91291994de25a45b9ea5d185fb6560, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HitEnemy
+    clip: {fileID: 8300000, guid: 429bf55338f887f48b102eaeb746b736, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Run
+    clip: {fileID: 8300000, guid: f8a62ca38880ddf49b22487b875602ac, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SniperShoot
+    clip: {fileID: 8300000, guid: 0b8376c0578913946a4fedf30167dd86, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: e94ac5e45175c534b88b717814b8b338, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EquippedWeapon
+    clip: {fileID: 8300000, guid: 27ea0e941a556bf45b7cea756993e45e, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BuyWeapon
+    clip: {fileID: 8300000, guid: a7ad730294017b243a62dd5c9c20559e, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Rain
+    clip: {fileID: 8300000, guid: fc9f9e23676a268428d73aa2dfb9154e, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
